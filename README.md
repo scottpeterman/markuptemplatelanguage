@@ -6,7 +6,7 @@ MTL is a simple markup syntax for extracting data from semi-structured text data
 * BOL - search for item with trailing, but no leading string
 * EOL - search for item with leading, but no training string
 > Key Concept – match the data around what you're looking for... What's in between is what you need.
-###Sample output from mtl
+## Sample output from mtl
 ```javascript
 {
   "test1": {
