@@ -1,0 +1,7 @@
+[[fieldbegin='macaddress', method=MID, match=', address is ']]@[[fieldend='macaddress', match='(bia']]
+[[fieldbegin='MTU', method=MID, match='MTU ']]@[[fieldend='MTU', match='bytes, BW']]
+[[fieldbegin='inputerrors', method=BOL]]@[[fieldend='inputerrors', match=' input errors']]
+[[fieldbegin='description', method=EOL, match='Description: ']]@[[fieldend='description', match=' \\n']]
+[[fieldbegin='internetaddress', method=EOL, match='Internet address is ']]@[[fieldend='internetaddress', match=' \\n']]
+[[fieldbegin='drops', method=BOL]]@[[fieldend='drops', match='drops for unrecognized']]
+[[fieldbegin='totaloutputdrops', method=MID, match='bytes, ']]@[[fieldend='totaloutputdrops', match='total output drops']]
