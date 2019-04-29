@@ -1,5 +1,5 @@
 # Markup Template Langage (MTL)
-MTL provides a simple markup syntax for extracting data from semi-structured text data typically produces by various network vendors. mtl.py produces json data for network automation processing
+MTL provides a simple markup syntax for extracting data from semi-structured text data typically produces by various network vendors. mtl.py produces json data for network automation processing. This is not as powerful as other libraries such as textFSM, but grew from my frustration with regex. It is much easier, and templates are easy to share with others. It still needs work but has definate use cases right now.
 
 ## Methods supported
 * MID - searching for item with leading and trailing strings
