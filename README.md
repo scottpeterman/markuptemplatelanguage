@@ -20,6 +20,13 @@ MTL is a simple markup syntax for extracting data from semi-structured text data
   }
 }
 ```
+
+## Example Usage
+```python
+from mtl import rendorValidator
+data = renderValidator(template,sourceclioutput,"test1")
+print(data)
+```
 ## Sample Template
 ```python
 [[fieldbegin='macaddress', method=MID, match=', address is ']]@[[fieldend='macaddress', match='(bia']]
